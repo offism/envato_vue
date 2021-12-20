@@ -15,6 +15,13 @@
         </ul>
     </div>
    </nav>
+   <div class="main_text__center d-flex flex-column">
+        <i class="main-text__center_top">Welcome to Envanto!</i>    
+        <strong class="main-text__center-center text-uppercase text-white mt-3">it's nice to met you</strong>
+        <a href="#" class="btn">
+            <i class="fas fa-chevron-circle-down" style="font-size:2rem;color:white;"></i>   
+        </a>
+    </div>    
  </section>
 </template>
 
@@ -54,5 +61,19 @@ export default {
     }
 .nav-link:hover{
     color: #fed136;
-    }         
+    }
+.main_text__center{
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+    }    
+.main-text__center-center{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 4rem;
+    margin-bottom: 100px;
+    }
+.main-text__center_top{
+    font-size: 2.5rem;
+    color: white;
+    }                 
 </style>
