@@ -16,7 +16,7 @@
     </div>
    </nav>
    <div class="main_text__center d-flex flex-column">
-        <i class="main-text__center_top">Welcome to Envanto!</i>    
+        <i class="main-text__center_top"> Welcome to Envanto! </i>    
         <strong class="main-text__center-center text-uppercase text-white mt-3">it's nice to met you</strong>
         <a href="#" class="main-down__btn btn">
             <i class="fas fa-chevron-circle-down"></i>   
