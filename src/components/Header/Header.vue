@@ -18,8 +18,8 @@
    <div class="main_text__center d-flex flex-column">
         <i class="main-text__center_top">Welcome to Envanto!</i>    
         <strong class="main-text__center-center text-uppercase text-white mt-3">it's nice to met you</strong>
-        <a href="#" class="btn">
-            <i class="fas fa-chevron-circle-down" style="font-size:2rem;color:white;"></i>   
+        <a href="#" class="main-down__btn btn">
+            <i class="fas fa-chevron-circle-down"></i>   
         </a>
     </div>    
  </section>
@@ -63,17 +63,28 @@ export default {
     color: #fed136;
     }
 .main_text__center{
-    min-height: 80vh;
+    min-height: 90vh;
     align-items: center;
     justify-content: center;
     }    
 .main-text__center-center{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 4rem;
-    margin-bottom: 100px;
+    margin-bottom: 180px;
     }
 .main-text__center_top{
     font-size: 2.5rem;
     color: white;
-    }                 
+    }
+.main-down__btn{
+    padding: 0;
+    font-size:2rem;
+    line-height: 0;
+    }
+.main-down__btn i{
+    color: #fff;
+    }    
+.main-down__btn:hover i{
+    color: #fed136;
+    }
 </style>
