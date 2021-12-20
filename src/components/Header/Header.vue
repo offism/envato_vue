@@ -1,9 +1,10 @@
 <template>
- <section class="main__header">
+ <section class="main__header py-3">
   <nav class="navbar">
     <div class="container">
         <a class="navbar-brand">
-         <img src="https://www.envato.com/static/media/envato.13edc57e.svg" alt="Envato logo">
+         <!-- <img src="https://www.envato.com/static/media/envato.13edc57e.svg" alt="Envato logo"> -->
+         <img src="./../../../public/logos/navbar-logo.svg" alt="Envato logo">
         </a>
         <ul class="navbar-nav text-uppercase ml-auto flex-row">
                 <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
@@ -32,17 +33,26 @@ export default {
     background-attachment: scroll;
     min-height: 100vh;
     }
+.navbar{
+        background-color: transparent;
+        }       
 .nav-item{
     margin-right: 20px;     
     }
 .navbar-nav li{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 0.95rem;
-    color: #fff;
     letter-spacing: 0.0625em;
+    }
+.navbar-brand{
+    width: 20%;
+    font-size: 1.5em;
+    color: #fed136;
     } 
-.navbar{
-    background-color: transparent;
-    color: whitesmoke;
-    }       
+.nav-link{
+    color: #fff;
+    }
+.nav-link:hover{
+    color: #fed136;
+    }         
 </style>
