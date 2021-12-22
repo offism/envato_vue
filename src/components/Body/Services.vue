@@ -5,7 +5,7 @@
             <h2 class="p__title text-uppercase"><b>services</b></h2>
             <i class="p__text text-capitalize">ghettoba foundation</i>   
         </div>
-        <div class="raw d-flex py-5">
+        <div class="row d-flex py-5">
             <div class="services__type col-md-4">
                 <span class="fa-stack fa-4x">
                     <i class="fas fa-circle fa-stack-2x"></i>
@@ -60,4 +60,5 @@ export default {
 .fa-circle{
     color:#fed136;
 }
+
 </style>
