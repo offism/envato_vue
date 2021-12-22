@@ -8,55 +8,55 @@
 
         <div class="row d-flex">
             <div class="services__item col-md-4">
-                <span class="services_img__part">
+                <span class="services_img__part d-block">
                    <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
                 </span>
-                <span class="services_text__part">
+                <span class="services_text__part d-block">
                    <h4 class="s_item__name">Threads</h4>
                    <small class="s_item__text">Illustration</small>
                 </span>
             </div>
             <div class="services__item col-md-4">
-                <span class="services_img__part">
+                <span class="services_img__part d-block">
                    <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
                 </span>
-                <span class="services_text__part">
+                <span class="services_text__part d-block">
                    <h4 class="s_item__name">Threads</h4>
                    <small class="s_item__text">Illustration</small>
                 </span>
             </div>
             <div class="services__item col-md-4">
-                <span class="services_img__part">
+                <span class="services_img__part d-block">
                    <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
                 </span>
-                <span class="services_text__part">
+                <span class="services_text__part d-block">
                    <h4 class="s_item__name">Threads</h4>
                    <small class="s_item__text">Illustration</small>
                 </span>
             </div>
             <div class="services__item col-md-4">
-                <span class="services_img__part">
+                <span class="services_img__part d-block">
                    <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
                 </span>
-                <span class="services_text__part">
+                <span class="services_text__part d-block">
                    <h4 class="s_item__name">Threads</h4>
                    <small class="s_item__text">Illustration</small>
                 </span>
             </div>
             <div class="services__item col-md-4">
-                <span class="services_img__part">
+                <span class="services_img__part d-block">
                    <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
                 </span>
-                <span class="services_text__part">
+                <span class="services_text__part d-block">
                    <h4 class="s_item__name">Threads</h4>
                    <small class="s_item__text">Illustration</small>
                 </span>
             </div>
             <div class="services__item col-md-4">
-                <span class="services_img__part">
+                <span class="services_img__part d-block">
                    <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
                 </span>
-                <span class="services_text__part">
+                <span class="services_text__part d-block">
                    <h4 class="s_item__name">Threads</h4>
                    <small class="s_item__text">Illustration</small>
                 </span>
@@ -91,11 +91,23 @@ export default {
 .fa-circle{
     color:#fed136;
 }
+.paragraph{
+    margin-bottom: 50px;
+}
 .services__item{
+    width: 30%;
     background-color: #fff;
-    margin: 0px; 
+    padding: 0;
+    margin: 0px;
+    overflow: hidden; 
+}
+.services__item:nth-of-type(n+1){
+    margin: 13px 1%;
 }
 .services_img__part img{
     vertical-align: middle;
+}
+.services_text__part{
+    padding: 10px;
 }
 </style>
