@@ -82,6 +82,7 @@ export default {
     line-height: 0;
     }
 .main-down__btn i{
+    transition: .4s ease all;
     color: #fff;
     }    
 .main-down__btn:hover i{

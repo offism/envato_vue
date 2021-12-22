@@ -7,58 +7,58 @@
         </div>
 
         <div class="row d-flex">
-            <div class="services__item col-md-4">
+            <div class="services__item col-lg-4 col-sm-6">
                 <span class="services_img__part d-block">
                    <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
                 </span>
                 <span class="services_text__part d-block">
                    <h4 class="s_item__name">Threads</h4>
-                   <small class="s_item__text">Illustration</small>
+                   <small class="s_item__text text-muted">Illustration</small>
                 </span>
             </div>
-            <div class="services__item col-md-4">
+            <div class="services__item col-lg-4 col-sm-6">
                 <span class="services_img__part d-block">
-                   <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
+                   <img src="./../../../public/img/portfolio/02-thumbnail.jpg" alt="">
                 </span>
                 <span class="services_text__part d-block">
-                   <h4 class="s_item__name">Threads</h4>
-                   <small class="s_item__text">Illustration</small>
+                   <h4 class="s_item__name">Explore</h4>
+                   <small class="s_item__text text-muted">Grapics Design</small>
                 </span>
             </div>
-            <div class="services__item col-md-4">
+            <div class="services__item col-lg-4 col-sm-6">
                 <span class="services_img__part d-block">
-                   <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
+                   <img src="./../../../public/img/portfolio/03-thumbnail.jpg" alt="">
                 </span>
                 <span class="services_text__part d-block">
-                   <h4 class="s_item__name">Threads</h4>
-                   <small class="s_item__text">Illustration</small>
+                   <h4 class="s_item__name">Finish</h4>
+                   <small class="s_item__text text-muted">Indentity</small>
                 </span>
             </div>
-            <div class="services__item col-md-4">
+            <div class="services__item col-lg-4 col-sm-6">
                 <span class="services_img__part d-block">
-                   <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
+                   <img src="./../../../public/img/portfolio/04-thumbnail.jpg" alt="">
                 </span>
                 <span class="services_text__part d-block">
-                   <h4 class="s_item__name">Threads</h4>
-                   <small class="s_item__text">Illustration</small>
+                   <h4 class="s_item__name">Lines</h4>
+                   <small class="s_item__text text-muted">Branding</small>
                 </span>
             </div>
-            <div class="services__item col-md-4">
+            <div class="services__item col-lg-4 col-sm-6">
                 <span class="services_img__part d-block">
-                   <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
+                   <img src="./../../../public/img/portfolio/05-thumbnail.jpg" alt="">
                 </span>
                 <span class="services_text__part d-block">
-                   <h4 class="s_item__name">Threads</h4>
-                   <small class="s_item__text">Illustration</small>
+                   <h4 class="s_item__name">South West</h4>
+                   <small class="s_item__text text-muted">Website Design</small>
                 </span>
             </div>
-            <div class="services__item col-md-4">
+            <div class="services__item col-lg-4 col-sm-6">
                 <span class="services_img__part d-block">
-                   <img src="./../../../public/img/portfolio/01-thumbnail.jpg" alt="">
+                   <img src="./../../../public/img/portfolio/06-thumbnail.jpg" alt="">
                 </span>
                 <span class="services_text__part d-block">
-                   <h4 class="s_item__name">Threads</h4>
-                   <small class="s_item__text">Illustration</small>
+                   <h4 class="s_item__name">Window</h4>
+                   <small class="s_item__text text-muted">Photography</small>
                 </span>
             </div>
         </div>          
@@ -109,5 +109,8 @@ export default {
 }
 .services_text__part{
     padding: 10px;
+}
+.s_item__name{
+    font-weight: 600;
 }
 </style>
