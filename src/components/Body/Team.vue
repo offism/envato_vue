@@ -31,20 +31,57 @@
                 </div>
             </div>   
             <div class="team__member col-md-4">
-                <span class="fa-stack fa-4x">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
-                        </span>
-                        <h4 class="my-3"><b>Responsive Design</b></h4>
-                        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-            </div>   
-            <div class="team__member col-md-4">
-                <span class="fa-stack fa-4x">
-                    <i class="fas fa-circle fa-stack-2x"></i>
-                    <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                <span class="user__img">
+                    <img src="./../../../public/users/2.jpg" class="img-fluid rounded-circle" alt="">  
                 </span>
-                    <h4 class="my-3"><b>Web Security</b></h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                <h4 class="mt-3 mb-0"><b>Larry Parker</b></h4>
+                <p class="text-muted">Lead Marketer</p>
+                <div class="m_social_networks">
+                    <span>
+                        <a href="#" class="m_facebook">
+                            <i class="fab fa-facebook-f "></i>
+                        </a>
+                    </span>
+                    <span style="margin:0 10px;">
+                        <a href="#" class="m_twitter">
+                            <i class="fab fa-twitter "></i>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="#" class="m_linkedin">
+                            <i class="fab fa-linkedin-in "></i>
+                        </a>
+                    </span>  
+                </div>
+            </div>   
+            <div class="team__member col-md-4 mb-5">
+                <span class="user__img">
+                    <img src="./../../../public/users/3.jpg" class="img-fluid rounded-circle" alt="">  
+                </span>
+                <h4 class="mt-3 mb-0"><b>Diana Peterson</b></h4>
+                <p class="text-muted">Lead Developer</p>
+                <div class="m_social_networks">
+                    <span>
+                        <a href="#" class="m_facebook">
+                            <i class="fab fa-facebook-f "></i>
+                        </a>
+                    </span>
+                    <span style="margin:0 10px;">
+                        <a href="#" class="m_twitter">
+                            <i class="fab fa-twitter "></i>
+                        </a>
+                    </span>
+                    <span>
+                        <a href="#" class="m_linkedin">
+                            <i class="fab fa-linkedin-in "></i>
+                        </a>
+                    </span>  
+                </div>
+            </div>
+            <div class="team_text w-75 mx-auto mt-5">
+                <hr>
+                <small class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptates cumque consectetur iste officia adipisci aperiam odit sequi eaque laudantium a laboriosam.</small>
+                <hr>      
             </div>   
         </div>
     </div>          
@@ -89,6 +126,7 @@ export default {
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    transition: .3s ease all;
 }
 .m_social_networks span a {
     border-radius: 50%;
@@ -99,5 +137,8 @@ export default {
     color: #fff;
     width: 100%;
     height: 100%;
+}
+.m_social_networks span:hover{
+    background-color: #212529;
 }
 </style>

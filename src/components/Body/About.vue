@@ -69,7 +69,7 @@ export default {
 .main__about{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     min-height: 100vh;
-    padding: 90px 30px;
+    padding: 90px 30px 0;
     display: flex;
     text-align: center;
 }
