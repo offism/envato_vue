@@ -28,7 +28,7 @@ export default {
 <style>
 .main__advertisement{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    min-height: 100vh;
+    min-height: 40vh;
     padding: 90px 30px 0;
     display: flex;
     text-align: center;

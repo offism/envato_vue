@@ -5,6 +5,7 @@
   <About/> 
   <Team/>
   <Advertisement/> 
+  <Contactus/> 
 </template>
 
 <script>
@@ -15,6 +16,7 @@ import Portfolio from './components/Body/Portfolio.vue'
 import About from './components/Body/About.vue'
 import Team from './components/Body/Team.vue'
 import Advertisement from './components/Body/Advertisement.vue'
+import Contactus from './components/Body/Contactus.vue'
 
 export default {
   name: "App",
@@ -24,7 +26,8 @@ export default {
    Portfolio,
    About,
    Team,
-   Advertisement 
+   Advertisement,
+   Contactus 
  }
 }
 
