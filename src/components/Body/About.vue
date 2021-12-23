@@ -52,9 +52,7 @@
                 </div>
             </li>
         </ul>
-        <div class="row d-flex">
-           
-        </div>          
+                
     </div>
  </section>
 </template>

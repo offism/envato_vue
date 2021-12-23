@@ -3,7 +3,8 @@
   <Services/>
   <Portfolio/>
   <About/> 
-  <Team/> 
+  <Team/>
+  <Advertisement/> 
 </template>
 
 <script>
@@ -13,6 +14,7 @@ import Services from './components/Body/Services.vue'
 import Portfolio from './components/Body/Portfolio.vue'
 import About from './components/Body/About.vue'
 import Team from './components/Body/Team.vue'
+import Advertisement from './components/Body/Advertisement.vue'
 
 export default {
   name: "App",
@@ -21,7 +23,8 @@ export default {
    Services,
    Portfolio,
    About,
-   Team 
+   Team,
+   Advertisement 
  }
 }
 
