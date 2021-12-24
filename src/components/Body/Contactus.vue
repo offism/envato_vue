@@ -65,7 +65,7 @@ export default {
     padding: 7px;
 }
 .col_contact__text textarea{
-    width: 500px;
+    width: 540px;
     padding: 20px;
     font-size: 22px;
     font-weight: 400;

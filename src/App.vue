@@ -18,7 +18,7 @@ import About from './components/Body/About.vue'
 import Team from './components/Body/Team.vue'
 import Advertisement from './components/Body/Advertisement.vue'
 import Contactus from './components/Body/Contactus.vue'
-import Footer from './components/Footer/Footer.vue'
+import Footer from './components/footer/Footer.vue'
 
 export default {
   name: "App",

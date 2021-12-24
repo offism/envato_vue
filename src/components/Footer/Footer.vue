@@ -2,7 +2,7 @@
  <section class="main__footer mx-auto">
    <div class="container">
         <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4" style="text-align:left;">
                 <p>Copyright © Your Website 2020</p>   
             </div>
             <div class="col-sm-4">
@@ -24,9 +24,9 @@
                     </span>  
                 </div>
             </div>
-            <div class="col-sm-4"> 
-                <a href="#">Privacy</a>
-                <a href="#">Policy</a>
+            <div class="col-sm-4" style="text-align:right"> 
+                <a href="#" class="mr-2" style="color:#fed136;">Privacy</a>
+                <a href="#" style="color:#fed136;">Policy</a>
             </div>  
         </div>
     </div>
@@ -42,8 +42,8 @@ export default {
 <style>
 .main__footer{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    min-height: 2vh;
-    padding: 90px 30px 0;
+    min-height: 1vh;
+    padding: 40px 30px;
     display: flex;
     text-align: center;
 }
