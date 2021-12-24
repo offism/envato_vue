@@ -43,7 +43,7 @@ export default {
 .main__footer{
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     min-height: 1vh;
-    padding: 40px 30px;
+    padding: 30px;
     display: flex;
     text-align: center;
 }
