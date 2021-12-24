@@ -3,16 +3,32 @@
    <div class="container">
         <ul class="ad">
             <li>
-                <div class="ad-image"><img class="rounded-circle img-fluid" src="./../../../public/logos/creative-market.jpg" alt="" /></div>
+                <div class="ad-image">
+                   <a href="#">
+                    <img class="rounded-circle img-fluid" src="./../../../public/logos/creative-market.jpg" alt="" />
+                   </a>
+                </div>
             </li>
             <li>
-                <div class="ad-image"><img class="rounded-circle img-fluid" src="./../../../public/logos/designmodo.jpg" alt="" /></div>
+                <div class="ad-image">
+                  <a href="#">
+                    <img class="rounded-circle img-fluid" src="./../../../public/logos/designmodo.jpg" alt="" />
+                  </a>
+                </div>
             </li>
             <li>
-                <div class="ad-image"><img class="rounded-circle img-fluid" src="./../../../public/logos/envato.jpg" alt="" /></div>
+                <div class="ad-image">
+                    <a href="#">
+                      <img class="rounded-circle img-fluid" src="./../../../public/logos/envato.jpg" alt="" />
+                    </a>
+                </div>
             </li>
             <li>
-                <div class="ad-image"><img class="rounded-circle img-fluid" src="./../../../public/logos/themeforest.jpg" alt="" /></div>
+                <div class="ad-image">
+                    <a href="#">
+                        <img class="rounded-circle img-fluid" src="./../../../public/logos/themeforest.jpg" alt="" />
+                    </a>
+                </div>
             </li>
         </ul>
     </div>
