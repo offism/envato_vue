@@ -1,20 +1,22 @@
 <template>
  <section class="main__header py-3">
-  <nav class="navbar">
-    <div class="container">
-        <a class="navbar-brand">
-         <!-- <img src="https://www.envato.com/static/media/envato.13edc57e.svg" alt="Envato logo"> -->
-         <img src="./../../../public/logos/navbar-logo.svg" alt="Envato logo">
-        </a>
-        <ul class="navbar-nav text-uppercase ml-auto flex-row">
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team">Team</a></li>
-                <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
-        </ul>
-    </div>
-   </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="./../../../public/logos/navbar-logo.svg" alt="" /></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="navlink_i nav-link js-scroll-trigger text-white" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="navlink_i nav-link js-scroll-trigger text-white" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="navlink_i nav-link js-scroll-trigger text-white" href="#about">About</a></li>
+                        <li class="nav-item"><a class="navlink_i nav-link js-scroll-trigger text-white" href="#team">Team</a></li>
+                        <li class="nav-item"><a class="navlink_i nav-link js-scroll-trigger text-white" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+    </nav>
    <div class="main_text__center d-flex flex-column">
         <i class="main-text__center_top"> Welcome to Envanto! </i>    
         <strong class="main-text__center-center text-uppercase text-white mt-3">it's nice to met you</strong>
@@ -38,7 +40,7 @@ export default {
     background-size: cover;
     background-position: center center;
     background-attachment: scroll;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     }
 .navbar{
         background-color: transparent;
@@ -56,14 +58,13 @@ export default {
     font-size: 1.5em;
     color: #fed136;
     } 
-.nav-link{
-    color: #fff;
-    }
-.nav-link:hover{
-    color: #fed136;
+
+.navlink_i:hover{
+    color:#fed136 !important;
     }
 .main_text__center{
-    min-height: 90vh;
+    margin: 190px 0;
+    /* min-height: 90vh; */
     align-items: center;
     justify-content: center;
     }    
