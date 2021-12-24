@@ -34,6 +34,12 @@ export default {
 </script>
 
 <style>
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    height: auto;
+}
 .main__header{
     background-image: url("./../../../public/img/parts/header-bg.jpg");
     background-repeat: no-repeat;
