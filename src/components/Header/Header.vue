@@ -31,9 +31,28 @@
 export default {
   name: "Header",
 };
+// let navEl = document.querySelector('.navbar')
+// function addClassToNav(elementAddingClass){
+//     document.addEventListener('scroll' , (event)=>{
+//         console.log(event.path[1].pageYOffset, elementAddingClass )
+//         // if(event.path[1].pageYOffset=='300'){
+//         //     console.log("1")
+//         // navEl.classList.add = "bgCol"
+//         // }
+//     })
+//             }
+//             addClassToNav(navEl)
 </script>
 
 <style>
+#mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+.bgCol{
+    background-color: rgba(0, 0, 0, .6);
+}
 .sticky {
     position: sticky;
     top: 0;
